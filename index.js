@@ -24,7 +24,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebas
                 set(ref(db,"userList/"),
                 {
                     email:email.value,
-                    password:pass.value
+                    password:pass.value,
 
                 })
                 .then(()=>{
@@ -37,9 +37,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebas
                 })
         });
     }
-function encPass(){
-        var pass12 = CryptoJS.AES.encrypt(pass.value, pass.value);
-        return pass12.toString();
-    }
+// function encPass(){
+//         var pass12 = CryptoJS.AES.encrypt(pass.value, pass.value);
+//         return pass12.toString();
+//     }
     //..............................Function call...................//
     submit.addEventListener('click',RegisterUser);
