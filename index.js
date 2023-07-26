@@ -2,12 +2,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebas
     import { getDatabase , ref, set, child, get } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-database.js";
     const firebaseConfig = {
     apiKey: "AIzaSyCuHrtSAPLC6CQeuv9WkaWcjksWFWly6TY",
-    authDomain: "meetup-5ffb3.firebaseapp.com",
-    databaseURL: "https://meetup-5ffb3-default-rtdb.firebaseio.com",
-    projectId: "meetup-5ffb3",
-    storageBucket: "meetup-5ffb3.appspot.com",
-    messagingSenderId: "180793006827",
-    appId: "1:180793006827:web:7665f36e7487bcf42e3cae"
+  authDomain: "meetup-5ffb3.firebaseapp.com",
+  databaseURL: "https://meetup-5ffb3-default-rtdb.firebaseio.com",
+  projectId: "meetup-5ffb3",
+  storageBucket: "meetup-5ffb3.appspot.com",
+  messagingSenderId: "180793006827",
+  appId: "1:180793006827:web:7665f36e7487bcf42e3cae"
   };
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
