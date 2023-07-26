@@ -24,7 +24,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebas
                 set(ref(db,"userList/"),
                 {
                     email:email.value,
-                    password:encPass()
+                    password:pass.value
 
                 })
                 .then(()=>{
